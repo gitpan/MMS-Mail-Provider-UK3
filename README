@@ -1,0 +1,59 @@
+NAME
+    MMS::Mail::Provider::UK3 - The great new MMS::Mail::Provider::UK3!
+
+VERSION
+    Version 0.01
+
+SYNOPSIS
+    Quick summary of what the module does.
+
+    Perhaps a little code snippet.
+
+        use MMS::Mail::Provider::UK3;
+
+        my $foo = MMS::Mail::Provider::UK3->new();
+        ...
+
+EXPORT
+    A list of functions that can be exported. You can delete this section if
+    you don't export anything, such as for a purely object-oriented module.
+
+FUNCTIONS
+  function1
+  function2
+AUTHOR
+    Rob Lee, "<robl at robl.co.uk>"
+
+BUGS
+    Please report any bugs or feature requests to "bug-mms-mail-provider-uk3
+    at rt.cpan.org", or through the web interface at
+    <http://rt.cpan.org/NoAuth/ReportBug.html?Queue=MMS-Mail-Provider-UK3>.
+    I will be notified, and then you'll automatically be notified of
+    progress on your bug as I make changes.
+
+SUPPORT
+    You can find documentation for this module with the perldoc command.
+
+        perldoc MMS::Mail::Provider::UK3
+
+    You can also look for information at:
+
+    * AnnoCPAN: Annotated CPAN documentation
+        <http://annocpan.org/dist/MMS-Mail-Provider-UK3>
+
+    * CPAN Ratings
+        <http://cpanratings.perl.org/d/MMS-Mail-Provider-UK3>
+
+    * RT: CPAN's request tracker
+        <http://rt.cpan.org/NoAuth/Bugs.html?Dist=MMS-Mail-Provider-UK3>
+
+    * Search CPAN
+        <http://search.cpan.org/dist/MMS-Mail-Provider-UK3>
+
+ACKNOWLEDGEMENTS
+COPYRIGHT & LICENSE
+    Copyright 2006 Rob Lee, all rights reserved.
+
+    This program is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
+

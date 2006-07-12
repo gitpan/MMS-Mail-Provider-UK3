@@ -1,26 +1,29 @@
 NAME
-    MMS::Mail::Provider::UK3 - The great new MMS::Mail::Provider::UK3!
+    MMS::Mail::Provider::UK3 - This provides a class for parsing an
+    MMS::Mail::Message object that has been sent via the UK 3 network.
 
 VERSION
-    Version 0.01
+    Version 0.02
 
 SYNOPSIS
-    Quick summary of what the module does.
+    This class provides a parse method for parsing an MMS::Mail::Message
+    object into an MMS::Mail::Message::Parsed object for MMS messages sent
+    from the UK 3 network.
 
-    Perhaps a little code snippet.
+METHODS
+    The following are the top-level methods of the MMS::Mail::Parser::UK3
+    class.
 
-        use MMS::Mail::Provider::UK3;
+  Constructor
+    "new()"
+        Return a new MMS::Mail::Provider::UK3 object.
 
-        my $foo = MMS::Mail::Provider::UK3->new();
-        ...
+  Regular Methods
+    "parse" MMS::Mail::Message
+        The "parse" method is called as an instance method. It parses the
+        MMS::Mail::Message object and returns an MMS::Mail::Message::Parsed
+        object.
 
-EXPORT
-    A list of functions that can be exported. You can delete this section if
-    you don't export anything, such as for a purely object-oriented module.
-
-FUNCTIONS
-  function1
-  function2
 AUTHOR
     Rob Lee, "<robl at robl.co.uk>"
 

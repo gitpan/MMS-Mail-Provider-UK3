@@ -14,11 +14,11 @@ MMS::Mail::Provider::UK3 - This provides a class for parsing an MMS::Mail::Messa
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 =head1 SYNOPSIS
 
@@ -119,7 +119,7 @@ sub parse {
       if ($header->recommended_filename() !~ /^images\//) {
         $parsed->add_image($element);
       }
-    } elsif ($element->mime_type =~ /avi$/) {
+    } elsif ($element->mime_type =~ /^video/) {
         $parsed->add_video($element);
     }
   }
